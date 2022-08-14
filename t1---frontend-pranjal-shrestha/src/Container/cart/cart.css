@@ -1,0 +1,12 @@
+.wishlist .item-img img {
+  height: 108px !important;
+  background-position: center;
+  background-size: cover;
+}
+.no-item-cart button {
+  width: "250px";
+  background-color: rgb(255, 115, 0);
+}
+.no-item-cart h4 {
+  color: "white";
+}

@@ -1,0 +1,19 @@
+.about-banner {
+  background: url("../img/slide1.jpg") no-repeat center 0px fixed;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+.hd-about {
+  border-bottom: 5px solid rgb(255, 0, 43);
+  width: 20%;
+}
+.no-border-card {
+  border: none;
+}
+.map iframe {
+  width: 100%;
+  min-height: 500px;
+  border: none;
+  margin-bottom: -0.5em;
+}

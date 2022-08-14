@@ -1,0 +1,152 @@
+.container {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.carousel {
+  height: 75vh;
+}
+.carousel-inner {
+  height: 75vh;
+}
+.carousel-item {
+  /* height: 75vh; */
+  background-color: #777;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0.1 black;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+#slide1 {
+  background-image: url("../img/slide1.jpg");
+}
+#slide2 {
+  background-image: url("../img/slide2.jpg");
+}
+#slide3 {
+  background-image: url("../img/slide3.jpg");
+}
+.about-us {
+  background: url("../img/about.png") no-repeat center 0px fixed;
+  background-size: cover;
+  height: 90vh;
+}
+.hd {
+  border-bottom: 5px solid rgb(255, 0, 43);
+  width: 35%;
+}
+.about-desc {
+  width: 35%;
+  overflow: hidden;
+}
+.about-us h1.about-title {
+  color: rgb(255, 255, 255);
+}
+.special-deals h3.special-title {
+  color: rgb(0, 0, 0);
+}
+
+.deals-left,
+.deals-right {
+  float: left;
+}
+.deals-grids {
+  margin-top: 4em;
+}
+.deals-right {
+  width: 60%;
+  margin-left: 2.5em;
+}
+.deals-left i.fa {
+  font-size: 2em;
+  border: 1px solid;
+  color: #0049d1;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  line-height: 2.4;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+.deals-left i.fa.fa-birthday-cake {
+  color: #00b62d;
+}
+.deals-left i.fa.fa-users {
+  color: #e4007d;
+}
+.deals-left i.fa.fa-building {
+  color: #d86100;
+}
+.deals-right h4 {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+  text-transform: capitalize;
+}
+.deals-right p {
+  color: #797979;
+}
+.deals-grids:hover i.fa {
+  color: rgb(71, 0, 236);
+}
+@media only screen and (max-width: 600px) {
+  .carousel {
+    height: 35vh;
+  }
+  .carousel-inner {
+    height: 35vh;
+  }
+  .carousel-item {
+    /* height: 75vh; */
+    background-color: #777;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.1 black;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  .about-desc {
+    width: 40%;
+
+    overflow: hidden;
+    font-size: 12px;
+  }
+  .about-us h1.about-title {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+  }
+  .special-deals h3.special-title {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+}

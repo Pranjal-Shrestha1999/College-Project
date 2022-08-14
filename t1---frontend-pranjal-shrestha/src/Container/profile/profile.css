@@ -1,0 +1,49 @@
+.profile-image {
+  max-height: 75vh !important;
+  object-fit: cover;
+}
+.profile-name {
+  font-size: 28px;
+  color: rgb(42, 90, 248);
+}
+.about-profile-text {
+  font-size: 24px;
+  border-bottom: 2px solid rgb(37, 37, 37);
+  color: rgb(34, 33, 33);
+}
+.user-tag {
+  font-size: 18px;
+  color: rgb(66, 66, 66);
+}
+.user-info {
+  font-size: 18px;
+  color: rgb(42, 90, 248);
+}
+@media only screen and (max-width: 600px) {
+  .profile-image {
+    max-height: 40vh !important;
+    object-fit: cover;
+  }
+  .profile-name {
+    font-size: 18px;
+    color: rgb(42, 90, 248);
+  }
+  .about-profile-text {
+    font-size: 18px;
+    border-bottom: 2px solid rgb(37, 37, 37);
+    color: rgb(34, 33, 33);
+  }
+  .user-tag {
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+  }
+  .btn-edit {
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+  }
+  .user-info {
+    font-size: 14px;
+    color: rgb(42, 90, 248);
+  }
+}

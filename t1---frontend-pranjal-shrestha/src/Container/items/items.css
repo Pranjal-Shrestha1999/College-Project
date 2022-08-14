@@ -1,0 +1,50 @@
+.menu-banner {
+  background: url("../img/lights.jpg") no-repeat center 0px fixed;
+  background-size: cover;
+  height: 50vh;
+}
+.menu-details h4 {
+  font-family: "Tangerine", cursive;
+  color: rgb(255, 115, 0);
+}
+.nav-pills .nav-link.active {
+  border-radius: 0px;
+  font-size: 18px;
+  color: rgb(255, 115, 0) !important;
+  background-color: white !important;
+  border-left: 1px solid rgb(255, 115, 0) !important;
+  border-top: 1px solid rgb(255, 115, 0) !important;
+  border-right: 1px solid rgb(255, 115, 0) !important;
+  border-bottom: none;
+}
+.order-btn {
+  background-color: rgb(253, 131, 31) !important;
+  color: white !important;
+}
+.order-btn:hover {
+  background-color: rgb(170, 89, 23) !important;
+  color: white !important;
+  transition: 0.5s;
+}
+.item-image {
+  border-bottom: 1px solid rgb(233, 225, 225) !important;
+  height: 170px;
+}
+.nav-pills .nav-link {
+  border-radius: 0px;
+  font-size: 18px;
+  background-color: rgb(255, 115, 0) !important;
+  color: white !important;
+}
+.nav-pills .nav-link:hover {
+  border-radius: 0px;
+  font-size: 18px;
+  color: rgb(255, 94, 0) !important;
+  background-color: white !important;
+  border-left: 1px solid rgb(255, 94, 0) !important;
+  border-top: 1px solid rgb(255, 94, 0) !important;
+  border-right: 1px solid rgb(255, 94, 0) !important;
+  border-bottom: none;
+
+  transition: 0.8s;
+}

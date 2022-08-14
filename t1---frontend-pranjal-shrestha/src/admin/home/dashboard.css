@@ -1,0 +1,11 @@
+.dashboard-header a {
+  text-decoration: none;
+}
+.navigation .sidenav a {
+  text-decoration: none;
+}
+.navigation .sidenav a:hover {
+  color: white;
+  text-decoration: none;
+}
+

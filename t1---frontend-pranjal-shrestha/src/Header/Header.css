@@ -1,0 +1,110 @@
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 18px;
+}
+.header-profile-img {
+  height: 48px;
+  width: 48px;
+  object-position: center;
+  object-fit: cover;
+}
+.cart {
+  position: absolute;
+}
+.profile {
+  /* width: 200px; */
+  display: block;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.profile-img {
+  position: relative;
+}
+.profile-text {
+  position: absolute;
+}
+/* .has-search .form-control {
+  border-radius: 20px;
+  padding-left: 30px;
+} */
+.blue-text {
+  color: #0020ff !important;
+}
+.search-icon {
+  position: relative;
+  color: rgb(146, 146, 146);
+  /* padding-left: 60px !important; */
+  z-index: 1;
+}
+.change-color a,
+.change-color a i {
+  color: #0020ff !important;
+}
+.search {
+  position: absolute;
+  /* padding-left: 40px !important; */
+}
+.btn-header-login {
+  background-color: #0020ff !important;
+  color: honeydew !important;
+  width: 90px;
+}
+
+.btn-login:hover {
+  color: white !important;
+}
+.vl {
+  border-left: 2px solid rgb(209, 209, 209);
+  margin-top: 8px;
+  height: 55px;
+}
+.hl {
+  border-bottom: 2px solid rgb(209, 209, 209);
+  margin-top: 8px;
+}
+
+/* .navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  top: -10px;
+} */
+@media (min-width: 576px) {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,40 @@
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;
+  z-index: 2;
+}
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
+}
+.btn-facebook {
+  background-color: #003ec5 !important;
+  color: #fff;
+}
+.btn-google {
+  background-color: #f07400 !important;
+  color: #fff;
+}
+.login,
+.image {
+  min-height: 100vh;
+}
+.bg-image {
+  /* background-image: url("https://images.unsplash.com/photo-1586190848861-99aa4a171e90?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"); */
+
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center center;
+}
